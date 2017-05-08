@@ -1,5 +1,6 @@
 #!/bin/bash
 
+# set PATH
 export PATH=$PATH:/opt/oracle/cell12.1.2.3.4_LINUX.X64_170111/cellsrv/bin/
 
 smartio () {
@@ -11,7 +12,7 @@ dbio () {
 }
 
 usage () {
-  echo "Usage: $0 smartio/dbio arguments."
+  echo "Usage: $0 smartio/dbio other arguments."
   exit 1
 }
 
